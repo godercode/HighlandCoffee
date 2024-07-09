@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản Lý Đồ Uống</title>
+    <link rel="stylesheet" href="Css/nav.css" />
+    <link rel="stylesheet" href="Css/sale.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a href="MainPage.html" class="navbar-brand">
+            <img
+              src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/White_logo800.png"
+              alt="Highlands Coffee"
+            />
+          </a>
+          <ul class="navbar-menu">
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="drink.html">QUẢN LÝ ĐỒ UỐNG</a></li>
+            <li><a href="sale.html">QUẢN LÝ BÀN HÀNG</a></li>
+            <li><a href="#">QUẢN LÝ NHÂN VIÊN</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Quản lý Bán Hàng</h1>
+        <div class="sales-section">
+          <div class="cart drink">
+            <h2>Danh sách đồ uống</h2>
+            <table id="cartTable">
+              <thead>
+                <tr>
+                  <th>Mã đồ uống</th>
+                  <th>Mô tả</th>
+                  <th>Tên đồ uống</th>
+                  <th>Size</th>
+                  <th>Đơn giá</th>
+                  <th>Số lượng</th>
+                  <th>Thao tác</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FZ001</td>
+                  <td>
+                    <img
+                      class="desc_img"
+                      src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__FREEZE_TRA_XANH.jpg"
+                      alt="Freeze Trà Xanh"
+                    />
+                  </td>
+                  <td>Freeze Trà Xanh</td>
+                  <td>M</td>
+                  <td>55.000</td>
+                  <td>1</td>
+                  <td><button class="button">Thêm</button></td>
+                </tr>
+                <tr>
+                  <td>FZ002</td>
+                  <td>
+                    <img
+                      class="desc_img"
+                      src="https://www.highlandscoffee.com.vn/vnt_upload/product/04_2023/New_product/thumbs/270_crop_HLC_New_logo_5.1_Products__FREEZE_CHOCO.jpg"
+                      alt="Freeze Sô-cô-la"
+                    />
+                  </td>
+                  <td>Freeze Trà Xanh</td>
+                  <td>M</td>
+                  <td>55.000</td>
+                  <td>1</td>
+                  <td><button class="button">Thêm</button></td>
+                </tr>
+                <tr>
+                  <td>FZ003</td>
+                  <td>
+                    <img
+                      class="desc_img"
+                      src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__CARAMEL_FREEZE_PHINDI.jpg"
+                      alt="Freeze CARAMEL"
+                    />
+                  </td>
+                  <td>Freeze Trà Xanh</td>
+                  <td>M</td>
+                  <td>55.000</td>
+                  <td>1</td>
+                  <td><button class="button">Thêm</button></td>
+                </tr>
+                <tr>
+                  <td>FZ004</td>
+                  <td>
+                    <img
+                      class="desc_img"
+                      src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__COOKIES_FREEZE.jpg"
+                      alt="Freeze Trà Xanh"
+                    />
+                  </td>
+                  <td>Freeze Trà Xanh</td>
+                  <td>M</td>
+                  <td>55.000</td>
+                  <td>1</td>
+                  <td><button class="button">Thêm</button></td>
+                </tr>
+              </tbody>
+              <tr>
+                <td>CF001</td>
+                <td>
+                  <img
+                    class="desc_img"
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2024/Phindi_Cassia/thumbs/270_crop_Phindi_Cassia_Highlands_products_Image1.jpg"
+                    alt="PHINDI CASSIA"
+                  />
+                </td>
+                <td>Phindi Cassia</td>
+                <td>M</td>
+                <td>45.000</td>
+                <td>1</td>
+                <td><button class="button">Thêm</button></td>
+              </tr>   
+              <tr>
+                <td>CF002</td>
+                <td>
+                  <img
+                    class="desc_img"
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__PHINDI_CHOCO.jpg"
+                    alt="PHINDI CHOCO"
+                  />
+                </td>
+                <td>Phindi Choco</td>
+                <td>M</td>
+                <td>45.000</td>
+                <td>1</td>
+                <td><button class="button">Thêm</button></td>
+              </tr>
+              <tr>
+                <td>CF003</td>
+                <td>
+                  <img
+                    class="desc_img"
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__PHINDI_HANH_NHAN.jpg"
+                    alt="PHINDI HẠNH NHÂN"
+                  />
+                </td>
+                <td>Phindi Hạnh Nhân</td>
+                <td>M</td>
+                <td>45.000</td>
+                <td>1</td>
+                <td><button class="button">Thêm</button></td>
+              </tr>
+              <tr>
+                <td>CF004</td>
+                <td>
+                  <img
+                    class="desc_img"
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/product/06_2023/thumbs/270_crop_HLC_New_logo_5.1_Products__PHINDI_KEM_SUA.jpg"
+                alt="Phindi Kem sữa"
+                  />
+                </td>
+                <td>Phindi Kem Sữa</td>
+                <td>M</td>
+                <td>45.000</td>
+                <td>1</td>
+                <td><button class="button">Thêm</button></td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+          <div class="cart recipt">
+            <h2>Hóa đơn</h2>
+            <table id="cartTable">
+              <thead>
+                <tr>
+                  <th>Tên đồ uống</th>
+                  <th>Size</th>
+                  <th>Số lượng</th>
+                  <th>Thành tiền</th>
+                  <th>Thao tác</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Freeze Trà Xanh</td>
+                  <td>M</td>
+                  <td>1</td>
+                  <td>55.000</td>
+                  <td><button class="button">Xóa</button></td>
+                </tr>
+                <tr>
+                  <td>Phindi Cassia</td>
+                  <td>M</td>
+                  <td>2</td>
+                  <td>90.000</td>
+                  <td><button class="button">Xóa</button></td>
+                </tr>
+                <tr>
+                  <td>Phindi Kem Sữa</td>
+                  <td>L</td>
+                  <td>1</td>
+                  <td>55.000</td>
+                  <td><button class="button">Xóa</button></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="cart-total">
+              <p>Tổng cộng: <span id="totalAmount">200.000</span></p>
+              <button class="button">Thanh toán</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>© 2018 Highlands Coffee. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
